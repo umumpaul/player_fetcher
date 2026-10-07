@@ -7,7 +7,7 @@ Fetch NBA player season statistics from Yahoo Fantasy Basketball using [Playwrig
 ```bash
 uv sync                          # creates .venv from uv.lock
 uv run playwright install chromium
-cp .env.example .env             # then fill in your Yahoo credentials
+cp .env.example .env             # rename the example file, then fill in your Yahoo credentials
 ```
 
 Note: `cdn.playwright.dev` is blocked on some networks; see `playwright install` docs for offline/mirror options if the browser download fails.
