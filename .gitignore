@@ -1,0 +1,9 @@
+.env
+yahoo_session.json
+player_stats.csv
+.venv/
+__pycache__/
+*.pyc
+
+__pycache__/
+*.pyc
